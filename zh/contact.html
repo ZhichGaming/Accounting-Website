@@ -1,8 +1,17 @@
 <!doctype html>
+
+<!-- 
+Homepage
+    Language
+    Service
+    Ressources
+        Articles
+    Contact
+ -->
 <html lang="en">
     <head>
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <title>Title of the page</title>
+        <title>Ni Suo CPA</title>
         <link rel="stylesheet" href="../style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,14 +20,14 @@
     </head>
     <body>
         <!-- Header -->
-        <section class="header-subpage">
+        <section class="header">
             <nav>
                 <a href="home.html"><img src="../images/logo.png"></a>
                 <div class="nav-links" id="navLinks">
                     <!-- Make the X button clickable -->
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <!-- Menu -->
-                    <ul class="header-list">
+                    <ul>
                         <li><a href="home.html">HOME</a></li>
                         <li><a href="services.html">SERVICES</a></li>
                         <li><a href="resources.html">RESOURCES</a></li>
@@ -27,9 +36,9 @@
                         <div class="dropdown">
                             <button class="dropbtn">Language<i class="fa fa-caret-down"></i></button>
                             <div class="languages">
-                                <a href="../en/services.html">English</a>
-                                <a href="../fr/services.html">Francais</a>
-                                <a href="../zh/services.html">中文</a>
+                                <a href="../en/home.html">English</a>
+                                <a href="../fr/home.html">Francais</a>
+                                <a href="../zh/home.html">中文</a>
                             </div>
                         </div>
                     </ul>
@@ -41,45 +50,23 @@
         <!-- Title -->
         <section class="title">
             <div class="text-box">
-                <h1>Services</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. excepturi, corporis iste assumenda aliquid perspiciatis! <br>deleniti, fugit mollitia aspernatur soluta alias saepe et ad, excepturi nam, eaque ullam reiciendis!</p>
+                <h1>Contact</h1>
+                <p>You can contact us if you have any questions or need anything! <br>Here are some ways you can contact me: </p>
             </div>
             <svg class="curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FCF7FF" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,224C384,235,480,245,576,234.7C672,224,768,192,864,181.3C960,171,1056,181,1152,160C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </section>
-        <!-------- Services -------->
-        <section class="services-subpage">
-            <div class="services-row-subpage">
-                <div class="services-col-subpage">
-                    <h3>Service</h3>
-                    <hr>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?</p>
+        <!-------- Contact -------->
+        <section class="contact-subpage">
+            <div class="contact-subpage-row">
+                <div class="contact-subpage-col">
+                    <img class="contact-subpage-icon" src="../images/phone.png">
+                    <h2>Phone</h2>
+                    <p>514-413-3214</p>
                 </div>
-                <div class="services-col-subpage">
-                    <h3>Service</h3>
-                    <hr>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?<br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?</p>
-                </div>
-                <div class="services-col-subpage">
-                    <h3>Service</h3>
-                    <hr>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?</p>
-                </div>
-            </div>
-            <div class="services-row-subpage">
-                <div class="services-col-subpage">
-                    <h3>Service</h3>
-                    <hr>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?<br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?</p>
-                </div>
-                <div class="services-col-subpage">
-                    <h3>Service</h3>
-                    <hr>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?</p>
-                </div>
-                <div class="services-col-subpage">
-                    <h3>Service</h3>
-                    <hr>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?</p>
+                <div class="contact-subpage-col">
+                    <img class="contact-subpage-icon" src="../images/mail.png">
+                    <h2>Email</h2>
+                    <p>example@gmail.com</p>
                 </div>
             </div>
         </section>

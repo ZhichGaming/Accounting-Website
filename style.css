@@ -580,4 +580,14 @@ h3 {
         padding-bottom: 20px;
     }
 
+    .contact-subpage-row {
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+
+    .contact-subpage-col {
+        margin: 10px;
+        width: 30vh;
+    }
 }
