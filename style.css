@@ -258,8 +258,8 @@ h3 {
 
 /* Make animation on hover */
 .resources-btn:hover {
-    border: 1px solid #293241;
-    background: #293241;
+    border: 1px solid #FCF7FE;
+    background: #FCF7FE;
     transition: 0.5s;
     color: #293241;
 }
