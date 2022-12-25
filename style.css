@@ -235,6 +235,10 @@ h3 {
     color: white;
 }
 
+.resources svg {
+    padding-top: 100px;
+}
+
 .resources p {
     padding-bottom: 30px;
 }
