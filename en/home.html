@@ -1,0 +1,128 @@
+<!doctype html>
+
+<!-- 
+Homepage
+    Language
+    Service
+    Ressources
+        Articles
+    Contact
+ -->
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta name="description" content="Ni Suo is a certified public accountant that can help you with various services.">
+        <meta name="keywords" content="accountant, certified public accountant, tax preparation, budgeting">
+        <title>Ni Suo CPA | A certified public accountant that offers various services</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <section class="header">
+            <nav>
+                <a href="home.html"><img src="../images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <!-- Make the X button clickable -->
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <!-- Menu -->
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="resources.html">RESOURCES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <!-- Language dropdown list -->
+                        <div class="dropdown">
+                            <button class="dropbtn">Language
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="languages">
+                                <a href="../en/home.html">English</a>
+                                <a href="../fr/home.html">Francais</a>
+                                <a href="../zh/home.html">中文</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <!-- Make the menu button clickable -->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <!-- Title -->
+        <section class="title">
+            <div class="text-box">
+                <h1>Accountant</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. excepturi, <br>corporis iste assumenda aliquid perspiciatis! deleniti, fugit mollitia aspernatur soluta <br>alias saepe et ad, excepturi nam, eaque ullam reiciendis!</p>
+                <!-- <a href="contact.html" class="contact-btn">Contact me</a> -->
+            </div>
+            <!-- <img class="calc" src="../images/calculator.png"> -->
+            <svg class="curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FCF7FF" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,224C384,235,480,245,576,234.7C672,224,768,192,864,181.3C960,171,1056,181,1152,160C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </section>
+        <!-------- Services -------->
+        <section class="services">
+            <div class="services-content">
+            <h1>Services</h1>
+            <p>These are the services that we offer.</p>
+                <a href="services.html">
+                    <div class="services-row">
+                        <div class="services-col">
+                            <h3>Service 1</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?</p>
+                        </div>
+                        <div class="services-col">
+                            <h3>Service 2</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?</p>
+                        </div>
+                        <div class="services-col">
+                            <h3>Service 3</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, tenetur vel? Eveniet laboriosam cupiditate deleniti molestiae sint obcaecati deserunt quisquam beatae odio a natus placeat maiores repudiandae, aperiam, numquam repellat?</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <svg class="curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#293241" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,208C384,224,480,256,576,245.3C672,235,768,181,864,160C960,139,1056,149,1152,154.7C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>        
+        </section>
+        <!-------- Resources -------->
+        <section class="resources">
+            <h1>Resources</h1>
+            <p>Here are some resources that you can view. </p>
+            <a href="" class="resources-btn white-btn">View Resources</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FCF7FE" fill-opacity="1" d="M0,32L48,32C96,32,192,32,288,48C384,64,480,96,576,133.3C672,171,768,213,864,213.3C960,213,1056,171,1152,138.7C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </section>
+        <!-------- Footer -------->
+        <section class="footer">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FCF7FE" fill-opacity="1" d="M0,64L480,96L960,160L1440,96L1440,0L960,0L480,0L0,0Z"></path></svg> -->
+            <div class="footer-row">
+                <div class="about-us">
+                    <h4>About Us</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Dolor atque iste consectetur blanditiis<br> mollitia quam veniam porro eum voluptates, <br>accusantium tempore vel sunt accusamus, laborum quas molestias. Alias, quia?</p>
+                </div>
+                <div class="useful-links">
+                    <h4>Useful Links</h4>
+                    <a href="home.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="resources.html">Resources</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="contact-footer">
+                    <h4>Contact Information</h4>
+                    <p>123-456-7890</p>
+                    <p>example@gmail.com</p>
+                </div>
+            </div>
+        </section>
+        <!-- Javascript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
